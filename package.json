@@ -1,0 +1,36 @@
+{
+  "name": "neilbryson.net",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "NODE_ENV=development grunt",
+    "grunt": "grunt",
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neil Bryson",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.2",
+    "inversify": "^4.1.0",
+    "method-override": "^2.3.8",
+    "morgan": "^1.8.1",
+    "reflect-metadata": "^0.1.10"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/errorhandler": "0.0.30",
+    "@types/method-override": "0.0.29",
+    "@types/morgan": "^1.7.32",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-run": "^0.6.0",
+    "grunt-ts": "^6.0.0-beta.15",
+    "typescript": "^2.3.2"
+  }
+}
